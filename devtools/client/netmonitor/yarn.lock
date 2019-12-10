@@ -1774,9 +1774,9 @@ devtools-contextmenu@^0.0.7:
   dependencies:
     devtools-modules "^0.0.32"
 
-devtools-launchpad@^0.0.117:
-  version "0.0.117"
-  resolved "https://registry.yarnpkg.com/devtools-launchpad/-/devtools-launchpad-0.0.117.tgz#048ea0762225d9f2e68d8e3d8bd56b950e86b88f"
+devtools-launchpad@^0.0.119:
+  version "0.0.119"
+  resolved "https://registry.yarnpkg.com/devtools-launchpad/-/devtools-launchpad-0.0.119.tgz#aa52574fb09e11b64c5c9da9a67c246fc86abefc"
   dependencies:
     amd-loader "0.0.8"
     autoprefixer "^7.1.2"
@@ -1803,9 +1803,9 @@ devtools-launchpad@^0.0.117:
     devtools-connection "^0.0.9"
     devtools-contextmenu "^0.0.7"
     devtools-mc-assets "^0.0.5"
-    devtools-modules "^0.0.33"
+    devtools-modules "^0.0.35"
     devtools-sprintf-js "^1.0.3"
-    devtools-utils "^0.0.10"
+    devtools-utils "^0.0.12"
     express "^4.13.4"
     express-static "^1.2.5"
     extract-text-webpack-plugin "^3.0.0"
@@ -1848,19 +1848,20 @@ devtools-mc-assets@^0.0.5:
   version "0.0.5"
   resolved "https://registry.yarnpkg.com/devtools-mc-assets/-/devtools-mc-assets-0.0.5.tgz#cfa501248c4e025c8cfb28ff0cabdea32f40eb8a"
 
-devtools-modules@=0.0.32, devtools-modules@^0.0.32:
-  version "0.0.32"
-  resolved "https://registry.yarnpkg.com/devtools-modules/-/devtools-modules-0.0.32.tgz#7432d664dba16918b92bf8e4907f2396c15980d8"
+devtools-modules@=0.0.35, devtools-modules@^0.0.35:
+  version "0.0.35"
+  resolved "https://registry.yarnpkg.com/devtools-modules/-/devtools-modules-0.0.35.tgz#7f6b85e6648784e538076981b9b6f84d5339151d"
   dependencies:
     jest "^19.0.2"
+    punycode "^2.1.0"
 
 devtools-modules@^0.0.28:
   version "0.0.28"
   resolved "https://registry.yarnpkg.com/devtools-modules/-/devtools-modules-0.0.28.tgz#5b3498a4844675daedc3c7128a95ba011431eb46"
 
-devtools-modules@^0.0.33:
-  version "0.0.33"
-  resolved "https://registry.yarnpkg.com/devtools-modules/-/devtools-modules-0.0.33.tgz#970301dbb44249fbf4ee4785db1cd2d200a173a3"
+devtools-modules@^0.0.32:
+  version "0.0.32"
+  resolved "https://registry.yarnpkg.com/devtools-modules/-/devtools-modules-0.0.32.tgz#7432d664dba16918b92bf8e4907f2396c15980d8"
   dependencies:
     jest "^19.0.2"
 
@@ -1874,9 +1875,9 @@ devtools-sprintf-js@^1.0.3:
   version "1.0.3"
   resolved "https://registry.yarnpkg.com/devtools-sprintf-js/-/devtools-sprintf-js-1.0.3.tgz#c2aa3c39d4047525e60410325c86770620281b87"
 
-devtools-utils@^0.0.10:
-  version "0.0.10"
-  resolved "https://registry.yarnpkg.com/devtools-utils/-/devtools-utils-0.0.10.tgz#3bfbf6e0b76cccae51754d8f40253e6d56568374"
+devtools-utils@^0.0.12:
+  version "0.0.12"
+  resolved "https://registry.yarnpkg.com/devtools-utils/-/devtools-utils-0.0.12.tgz#8cb4f461f5fb36532883e5c9bafbd94fdb0ce5f1"
   dependencies:
     babel-plugin-transform-flow-strip-types "^6.22.0"
     babel-preset-stage-3 "^6.22.0"
@@ -4387,6 +4388,10 @@ punycode@^1.2.4, punycode@^1.4.1:
   version "1.4.1"
   resolved "https://registry.yarnpkg.com/punycode/-/punycode-1.4.1.tgz#c0d5a63b2718800ad8e1eb0fa5269c84dd41845e"
 
+punycode@^2.1.0:
+  version "2.1.1"
+  resolved "https://registry.yarnpkg.com/punycode/-/punycode-2.1.1.tgz#b58b010ac40c22c5657616c8d2c2c02c7bf479ec"
+
 q@^1.1.2:
   version "1.5.0"
   resolved "https://registry.yarnpkg.com/q/-/q-1.5.0.tgz#dd01bac9d06d30e6f219aecb8253ee9ebdc308f1"
@@ -5563,8 +5568,8 @@ wrappy@1:
   resolved "https://registry.yarnpkg.com/wrappy/-/wrappy-1.0.2.tgz#b5243d8f3ec1aa35f1364605bc0d1036e30ab69f"
 
 ws@1.1.x, ws@^1.0.1:
-  version "1.1.4"
-  resolved "https://registry.yarnpkg.com/ws/-/ws-1.1.4.tgz#57f40d036832e5f5055662a397c4de76ed66bf61"
+  version "1.1.5"
+  resolved "https://registry.yarnpkg.com/ws/-/ws-1.1.5.tgz#cbd9e6e75e09fc5d2c90015f21f0c40875e0dd51"
   dependencies:
     options ">=0.0.5"
     ultron "1.0.x"
