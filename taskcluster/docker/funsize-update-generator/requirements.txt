@@ -33,7 +33,7 @@ pyasn1==0.4.3
 pycparser==2.18
 python-dateutil==2.7.3
 python-gnupg==0.4.2
-PyYAML==3.12
+PyYAML==5.4
 redo==1.6
 requests==2.19.0
 rsa==3.4.2
